@@ -53,7 +53,7 @@ const addClickEvents = (selector, eventName, additionalDataCallback) => {
 
     // Función manejadora del evento click
     function handleClick(event) {
-        event.preventDefault();
+        //event.preventDefault();
 
         try {
             const additionalData = additionalDataCallback ? additionalDataCallback(event.target) : {};
